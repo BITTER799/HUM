@@ -4,7 +4,7 @@
 #include <SHT2x.h>
 #define buzzer_pin 6
 #define buzzer_fre 600
-#define hum 80
+#define hum 50
 #include <U8glib.h>
 #define INTERVAL_LCD             20             //定义OLED刷新时间间隔  
 unsigned long lcd_time = millis();  
